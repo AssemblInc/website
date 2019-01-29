@@ -7,7 +7,7 @@ author:
   twitter: assemblscience
 
 # If you don't have a favicon, change to false.
-favicon: false
+favicon: true
 
 footer:
   separator: '|'
@@ -62,7 +62,7 @@ plugins:
 
 # Compress Sass for production.
 sass:
-  style: compressed
+  style: full
 
 # Specifying front matter defaults
 defaults:
@@ -72,7 +72,7 @@ defaults:
       type: posts
     values:
       layout: "post"
-      author: "YOUR NAME"
+      author: "Assembl Team"
       comments: true
 
 
