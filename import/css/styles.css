@@ -129,6 +129,7 @@ a:hover, a:focus, a:active {
     text-decoration: none;
     color: #EDF4F4;
     margin: 7px 9px;
+    padding: 0px;
     cursor: pointer;
 }
 
@@ -203,4 +204,58 @@ a:hover, a:focus, a:active {
     background: #009FFF;
     color: #EDEDED;
     text-shadow: initial;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        min-width: 520px;
+    }
+
+    #header-logo-sub {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    body {
+        min-width: 360px;
+    }
+
+    #main-header {
+        height: 52px;
+    }
+
+    #header-logo {
+        line-height: 28px;
+        padding: 5px 8px 13px 16px;
+    }
+
+    #header-logo-text {
+        font-size: 26px;
+    }
+
+    #header-nav {
+        font-size: 19px;
+        padding: 5px 16px;
+    }
+
+    #header-nav a {
+        margin: 0px;
+        padding: 8px 8px;
+    }
+
+    #main-content {
+        padding-top: 52px;
+    }
+
+    #splash-logo-img {
+        width: 96px;
+        height: 96px;
+        border-radius: 48px;
+        margin-bottom: 12px;
+    }
+
+    #download-container {
+        font-size: 25px;
+    }
 }
