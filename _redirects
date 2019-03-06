@@ -1,0 +1,7 @@
+# Redirect default Netlify subdomain to primary domain
+https://assembl-website.netlify.com/* https://assembl.science/:splat 301!
+
+# Redirect domain aliases to primary domain
+https://www.assembl.science/* https://assembl.science/:splat 301!
+https://assembl.ch/* https://assembl.science/:splat 301!
+https://www.assembl.ch/* https://assembl.science/:splat 301!
