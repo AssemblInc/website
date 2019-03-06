@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Didact Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/DidactGothic-Regular.ttf');
+}
+
+html {
+    height: 100%;
+}
+
+html, body {
+    display: block;
+    width: 100%;
+    height: 100%;
+	margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #193864;
+    background: linear-gradient(-45deg, #19285C, #193864);
+    background-attachment: fixed;
+    color: #EDF4F4;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    caret-color: #EDF4F4;
+    min-width: 750px;
+}
+
+*:focus {
+	outline: 0;
+}
+
+b, th {
+	font-weight: 500;
+}
+
+a, a:visited {
+	color: #97CED9;
+	text-decoration: underline;
+	cursor: pointer;
+	transition: color 0.25s;
+}
+
+a:hover, a:focus, a:active {
+	color: #ABE2ED;
+	transition: color 0.05s;
+	outline: 0;
+}
+
+.center-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.center-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#main-header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 72px;
+    background-color: #193864;
+    background: linear-gradient(-45deg, #19285C, #193864);
+    white-space: nowrap;
+    min-width: inherit;
+    z-index: 100;
+}
+
+#main-header:before {
+    will-change: top,left;
+    box-shadow: 0 0 4px rgba(0,0,0,.34), 0 4px 8px rgba(0,0,0,.68);
+    content: "";
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    z-index: +1;
+}
+
+#header-logo {
+    display: block;
+    font-family: 'Didact Gothic';
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 44px;
+    padding: 14px 24px;
+    color: #EDF4F4;
+    cursor: default;
+    float: left;
+    text-align: left;
+}
+
+#header-logo-text {
+    letter-spacing: 1.5px;
+}
+
+#header-logo-sub {
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 18px;
+    letter-spacing: 0px;
+    font-style: italic;
+}
+
+#header-nav {
+    float: right;
+    display: block;
+    padding: 14px 24px;
+    font-size: 24px;
+    text-align: right;
+    font-family: 'Didact Gothic';
+    text-transform: lowercase;
+}
+
+#header-nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #EDF4F4;
+    margin: 7px 9px;
+    cursor: pointer;
+}
+
+#header-nav a:hover {
+    color: #ABE2ED;
+    text-decoration: underline;
+}
+
+#main-content {
+    display: block;
+    padding-top: 72px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#splash {
+    display: block;
+    position: relative;
+    height: 100%;
+    background-image: url(../../images/bg.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1px 2px 3px #000;
+}
+
+#splash > .center-outer {
+    background: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+	background: -webkit-radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+	background: -moz-radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+	background: -ms-radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+    background: -o-radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+}
+
+#splash-logo-img {
+    display: inline-block;
+    width: 156px;
+    height: 156px;
+    box-shadow: 0px 0px 45px 2px rgba(5,5,5,0.8);
+    border-radius: 78px;
+    pointer-events: none;
+    margin-bottom: 26px;
+}
+
+#download-container {
+    display: inline-block;
+    font-family: 'Didact Gothic';
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+#social-networks {
+    position: absolute;
+    bottom: 52px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+}
+
+/* PLACEHOLDER STYLING */
+::-webkit-input-placeholder, ::-moz-placeholder, :-moz-placeholder, :-ms-input-placeholder {
+	color: rgba(255,255,255,0.1);
+}
+
+/* SELECTION STYLING */
+::selection {
+    background: #009FFF;
+    color: #EDEDED;
+    text-shadow: initial;
+}
