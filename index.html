@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 	<head>
 		<link rel="manifest" href="manifest.json" /> <!-- TODO: improve manifest; add icons, colors -->
 		
@@ -14,7 +14,7 @@
 		<meta property="og:title" content="Assembl - Democratizing Science" />
 		<meta property="og:description" content="Assembl is working to solve problems that inhibit the advancement of scientific research. Our current mission is to improve the quality and accessibility of scientific data by interconnecting disparate data sources and positively incentivizing data interchange." />
 		<meta property="og:type" content="website" />
-		<meta property="og:image" content="icon.png" />
+		<!-- TODO: add image -->
 		<meta property="og:url" content="https://assembl.science" />
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:site_name" content="Assembl" />
@@ -24,43 +24,145 @@
 		<meta name="keywords" content="Assembl, science, research, data, sharing, interchange, blockchain, zug, switzerland, democratizing" />
 		
 		<!-- ICON METADATA -->
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <link rel="icon" type="image/ico" href="favicon.ico" />
+		<!-- TODO: add favicons and other icons -->
 		
 		<!-- FONTS -->
-		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic:400,600|Roboto:400,700,500,300,100" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Didact+Gothic:400,700|Noto+Sans+JP|Roboto:400,700,500,300,100" rel="stylesheet">
 		
 		<!-- STYLING -->
-		<meta name="theme-color" content="#004CFF" />
+		<meta name="theme-color" content="#264011" />
 		<link rel="stylesheet" href="import/css/styles.css" />
 		
 		<!-- SCRIPTS -->
 		<script src="import/js/jquery.js"></script>
-    </head>
-    <body>
-        <header id="main-header">
-            <div id="header-logo"><span id="header-logo-text">Assembl</span><span id="header-logo-sub">democratizing science</span></div>
-            <nav id="header-nav">
-                <a href="blog/">blog</a>
-                <a href="#contact">contact</a>
-                <a href="#about">about</a>
-            </nav>
-        </header>
-        <div id="main-content">
-            <div id="splash">
-                <div class="center-outer">
-                    <div class="center-inner">
-                        <img id="splash-logo-img" src="images/icon.png" /><br />
-                        <div id="download-container">Available soon!</div>
-                    </div>
-                </div>
-                <div id="social-networks">
-                    <a href="https://www.twitter.com/assemblscience" target="_blank">Twitter</a>
-                    <a href="https://www.keybase.io/assembl" target="_blank">Keybase</a>
-                    <a href="https://www.instagram.com/assemblscience" target="_blank">Instagram</a>
-                    <a href="https://www.linkedin.com/company/12615922/" target="_blank">LinkedIn</a>
-                </div>
-            </div>
-        </div>
-    </body>
+		<script src="import/js/blocks.js"></script>
+	</head>
+	<body>
+		<div class="block tertiary">
+			<div class="block-container">
+				<div class="block-content">
+					<div class="first-wrapper">
+						<h1 class="assembl-logo">Assembl</h1>
+						<h2 class="spread-the-world">Democratizing Science</h2>
+						<div class="social-media-wrapper">
+							<div class="social-media-inner">
+								<ul>
+									<li>
+										<a href="https://www.twitter.com/assemblscience" onclick="this.blur();" title="Twitter" target="_blank">
+											<img src="images/icons/twitter.svg" />
+											<span>Twitter</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.keybase.io/assembl" onclick="this.blur();" title="Keybase" target="_blank">
+											<img src="images/icons/keybase.svg" />
+											<span>Keybase</span>
+										</a>
+									</li>
+									<li>
+										<a href="/blog" onclick="this.blur();" title="Blog" target="_blank">
+											<img src="images/icons/blog.svg" />
+											<span>Blog</span>
+										</a>
+									</li>															
+									<li>
+										<a href="https://www.instagram.com/assemblscience" onclick="this.blur();" title="Instagram" target="_blank">
+											<img src="images/icons/instagram.svg" />
+											<span>Instagram</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://github.com/assemblscience" onclick="this.blur();" title="GitHub" target="_blank">
+											<img src="images/icons/git.svg" />
+											<span>GitHub</span>
+										</a>
+									</li>												
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="nav">
+						<a class="nav-btn" href="#about" onclick="scrollToAnchor('about'); this.blur();">about</a>
+						<a class="nav-btn" href="#contact" onclick="scrollToAnchor('contact'); this.blur();">contact</a>
+						<a class="nav-btn" href="#updates" onclick="scrollToAnchor('updates'); this.blur();">updates</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block secondary" data-blockname="about">
+			<div class="block-container">
+				<div class="block-content">
+					<h2 name="about">ABOUT</h2>
+					<table class="about-us">
+						<tr>
+							<td>
+								<h3>What we do:</h3>
+								<p>Assembl is working to solve problems that inhibit the advancement of scientific research. Our current mission is to improve the quality and accessibility of  scientific data by interconnecting disparate data sources and positively incentivizing data interchange.</p>
+							</td>
+							<td>
+								<h3>Who we are:</h3>
+								<p>Assembl was co-founded by Sebastian Mellen and Freek Bes. We have grown into a small team of programmers, scientists, and researchers who envision a world of unbounded scientific exploration, free from corporate control and stagnating centralization. If you are interested in joining our team, please send us an e-mail at <a href="mailto:team@assembl.science">team@assembl.science</a> or <a href="https://signup.assembl.ch#team">submit your CV and email here.</a></p>
+							</td>
+						</tr>
+					</table>
+					<table class="for-the-interested">
+						<tr>
+							<td>
+								<h3>For scientists:</h3>
+								<p>If you are a forward-thinking scientist, independent researcher, or member of an academic institution interested in a secure, simple, and unhampered method of exchanging data, please send us an e-mail at <a href="mailto:outreach@assembl.science">outreach@assembl.science</a> or <a href="https://signup.assembl.ch#science">sign-up for our alpha deployment here.</a></p>
+							</td>
+							<td>
+								<h3>For the general public:</h3>
+								<p>If you'd like more information about Assembl, please check out our blog. <br> If you would like to follow our progress, please <a href="https://signup.assembl.ch#invest">sign up for our updates here.</a></p>
+							</td>
+							<td>
+								<h3>For investors:</h3>
+								<p>We are currently in the seed funding stage and are seeking investors willing to invest between $75,000 and $150,000 for 5-10% equity. If you are interested and would like to view our technical documentation and business plans, please send us an e-mail at <a href="mailto:invest@assembl.science">invest@assembl.science</a> or <a href="https://signup.assembl.ch#invest">send us your information here.</a></p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="block secondary" data-blockname="contact">
+			<div class="block-container">
+				<div class="block-content">
+					<h2 name="contact">CONTACT</h2>
+					<p>If you wish to contact us, please don't hesitate to send us an e-mail at <a href="mailto:contact@assembl.science">contact@assembl.science</a>. We will gladly reply to you!<br><br>You can also contact us through social media, if that's what you prefer. Our social media is <a href="javascript:scrollToTop();">listed above</a>!</p>
+				</div>
+			</div>
+		</div>
+		<div class="block secondary" data-blockname="updates">
+			<div class="block-container">
+				<div class="block-content">
+					<h2 name="updates">UPDATES</h2>
+					<form id="reg-updates" name="reg-updates" method="post" target="submit/reg-updates.php" accept-charset="utf-8" enctype="application/x-www-form-urlencoded" target="_blank">
+						<p>Be the first to get new updates by signing up below:</p>
+						<label for="email">E-mail address</label><input type="email" name="email" id="email" required placeholder="example@domain.com" /><input type="submit" value="Keep me updated" class="email-submit" />
+					</form>
+					<script>
+					$('#reg-updates').submit(function(e){
+						e.preventDefault();
+						$.ajax({
+							type: 'post',
+							url: 'submit/reg-updates.php',
+							data: $('#reg-updates').serialize(),
+							dataType: 'json',
+							error: function(jqXHR, status, errorThrown) {
+								console.error(errorThrown);
+								alert("An error occured and we couldn't properly add you to our list. Please try again later.");
+							},
+							success: function(data, status, jqXHR) {
+								console.log(data);
+								alert(data["message"]);
+								$("#reg-updates")[0].reset();
+							}
+						});
+					});
+					</script>
+				</div>
+			</div>
+		</div>
+		<div id="back-to-top" style="top: -100px;" title="Scroll back to the top of the page" onclick="scrollToTop();"><i class="material-icons">&#xe5ce;</i><span>back to top</span><i class="material-icons">&#xe5ce;</i></div>
+	</body>
 </html>
