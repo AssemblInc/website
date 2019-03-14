@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Didact Gothic';
+    src: url('../fonts/DidactGothic-Regular.ttf');
+    src: url('../fonts/DidactGothic-Regular.woff2') format('woff2'),
+         url('../fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+
+html {
+    background-color: #193864;
+    background: linear-gradient(-45deg, #19285C, #193864);
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+html, body {
+    display: block;
+}
+
+body {
+    margin: 16px auto 128px auto;
+    padding: 48px 32px;
+    color: #1A1A1A;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    caret-color: #1A1A1A;
+    max-width: 800px;
+    background: #EDF4F4;
+}
+
+b, th {
+	font-weight: bold;
+}
+
+a, a:visited {
+	color: #004CFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+	outline: 0;
+}
+
+h1 {
+    margin: -48px -32px 32px -32px;
+    padding: 14px 32px;
+
+    display: block;
+    font-family: 'Didact Gothic';
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 1.5px;
+
+    background-color: #193864;
+    background: linear-gradient(-45deg, #19285C, #193864);
+    background-attachment: fixed;
+    color: #EDF4F4;
+}
+
+h1 a {
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Didact Gothic';
+    font-weight: bold;
+    margin: 16px 0px 4px 0px;
+}
+
+hr {
+    margin: 8px 0px 32px 0px;
+}
+
+p {
+    margin: 4px 0px;
+}
