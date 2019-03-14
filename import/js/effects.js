@@ -23,9 +23,7 @@ function onScrollEvent(noScrollCheck) {
         else {
             splash.style.pointerEvents = "auto";
         }
-    }
-    if (scrollTop > 0) {
-        expandMore.className = "contract";
+
         var mainHeader = document.getElementById("main-header");
         if (scrollTop >= splashHeight) {
             if ((scrollTop < splashHeight + 200) || noScrollCheck === true) {
@@ -35,6 +33,9 @@ function onScrollEvent(noScrollCheck) {
         else {
             mainHeader.style.top = "0px";
         }
+    }
+    if (scrollTop > 0) {
+        expandMore.className = "contract";
     }
     else {
         expandMore.className = "expand";
@@ -76,14 +77,8 @@ document.addEventListener("DOMContentLoaded", initEffects);
 function expandMoreContent(expand) {
     console.log("Expanding", expand);
     if (expand) {
-        if (window.innerWidth > 520) {
-            document.getElementsByTagName("html")[0].scrollTop = window.innerHeight - 217;
-            document.getElementsByTagName("body")[0].scrollTop = window.innerHeight - 217;
-        }
-        else {
-            document.getElementsByTagName("html")[0].scrollTop = window.innerHeight - 192;
-            document.getElementsByTagName("body")[0].scrollTop = window.innerHeight - 192;
-        }
+        document.getElementsByTagName("html")[0].scrollTop = window.innerHeight - document.getElementById("main-header").clientHeight - document.getElementById("expand-more-content").clientHeight - 24;
+        document.getElementsByTagName("body")[0].scrollTop = window.innerHeight - document.getElementById("main-header").clientHeight - document.getElementById("expand-more-content").clientHeight - 24;
     }
     else {
         document.getElementsByTagName("html")[0].scrollTop = 0;

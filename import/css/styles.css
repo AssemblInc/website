@@ -161,6 +161,8 @@ input[type=submit]:active, input[type=button]:active, button:active {
 
 #header-inner {
     display: block;
+    text-align: right;
+    white-space: nowrap;
     max-width: 1000px;
     margin: 0 auto;
     height: inherit;
@@ -175,8 +177,9 @@ input[type=submit]:active, input[type=button]:active, button:active {
     padding: 14px 24px;
     color: #EDF4F4;
     cursor: default;
-    float: left;
     text-align: left;
+    float: left;
+    user-select: none;
 }
 
 #header-logo-text {
@@ -193,8 +196,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
 }
 
 #header-nav {
-    float: right;
-    display: block;
+    display: inline-block;
     padding: 14px 24px;
     font-size: 24px;
     text-align: right;
