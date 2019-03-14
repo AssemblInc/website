@@ -6,6 +6,6 @@
 	"description": "Assembl is working to solve problems that inhibit the advancement of scientific research. Our current mission is to improve the quality and accessibility of scientific data by interconnecting disparate data sources and positively incentivizing data interchange.",
 	"start_url": "/",
 	"scope": "/",
-	"background_color": "#EFEBC6",
-	"theme_color": "#264011"
+	"background_color": "#193864",
+	"theme_color": "#004CFF"
 }
