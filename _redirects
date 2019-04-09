@@ -16,6 +16,9 @@ https://www.assemblscience.com/* https://assembl.science/:splat 301!
 http://assembl.cloud/* https://assembl.science/:splat 301!
 http://www.assembl.cloud/* https://assembl.science/:splat 301!
 
+/blog/*  https://assembl-blog.netlify.com/:splat  200
+
+
 # Redirect permalinks to subdomains
 
 https://assembl.science/blog/* https://blog.assembl.science/:splat 301!
