@@ -464,7 +464,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     -moz-backdrop-filter: blur(5px);
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.8);
     border-radius: 3px;
     position: relative;
 }
@@ -538,6 +538,68 @@ form table td.legalstuff {
     -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.inner-card {
+    display: block;
+    margin: 10px 0px;
+    padding: 12px 10px;
+    background-color: rgba(255,255,255,0.25);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner-card:last-of-type {
+    margin-bottom: 0px;
+}
+
+.inner-card-image {
+    display: block;
+    float: left;
+    width: 128px;
+    height: 128px;
+    margin-right: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+}
+
+.inner-card-image.round {
+    border-radius: 64px;
+}
+
+.inner-card-image.grayscale {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.inner-card-next-to-image {
+    overflow: hidden;
+}
+
+.inner-card-title {
+    display: block;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.inner-card-title small {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    color: #7A7A7A;
+}
+
+.inner-card-title small::before {
+    content: '>';
+    margin: 0px 4px 0px 6px;
+}
+
+.inner-card-small-links {
+    font-size: smaller;
+    margin-top: 8px;
 }
 
 #main-footer {
@@ -624,6 +686,10 @@ form table td.legalstuff {
     
     .card-content-inner {
         padding: 12px;
+    }
+
+    .inner-card {
+        padding: 8px 6px;
     }
 }
 
@@ -721,5 +787,23 @@ form table td.legalstuff {
     #footer-inner ul {
         padding: 0px;
         margin: 0px;
+    }
+
+    .inner-card-image {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .inner-card-image.round {
+        border-radius: 40px;
+    }
+
+    .inner-card-title {
+        font-size: 19px;
+    }
+
+    .inner-card-title small {
+        font-size: 14px;
     }
 }
