@@ -89,6 +89,9 @@ function expandMoreContent(expand) {
 var loadedContent = "";
 function loadContent(cardGroup, doNotExpand) {
     if (cardGroup != loadedContent) {
+        if (cardGroup == "home") {
+            doNotExpand = true;
+        }
         expandMoreContent(false);
         var cards = document.getElementsByClassName("card");
         for (var i = 0; i < cards.length; i++) {
