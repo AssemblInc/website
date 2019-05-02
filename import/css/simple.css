@@ -5,7 +5,7 @@
          url('../fonts/DidactGothic-Regular.ttf') format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
+@import url('https://fonts.googleapis.com/css?family=Didact Gothic:400,700');
 
 html {
     background-color: #193864;
@@ -24,7 +24,7 @@ body {
     margin: 16px auto 128px auto;
     padding: 48px 32px;
     color: #1A1A1A;
-    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
     font-weight: 400;
     caret-color: #1A1A1A;
     max-width: 800px;
