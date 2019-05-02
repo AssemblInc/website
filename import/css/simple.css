@@ -48,6 +48,7 @@ body {
     padding: 48px 32px;
     color: #1A1A1A;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.6px;
     font-weight: 400;
     caret-color: #1A1A1A;
     max-width: 800px;
@@ -94,6 +95,7 @@ h1 a {
 h2, h3, h4, h5, h6 {
     font-family: 'Didact Gothic';
     font-weight: bold;
+    letter-spacing: normal;
     margin: 16px 0px 4px 0px;
 }
 
