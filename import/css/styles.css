@@ -1,9 +1,33 @@
 @font-face {
     font-family: 'Didact Gothic';
     font-weight: 400;
-    src: url('../fonts/DidactGothic-Regular.ttf');
-    src: url('../fonts/DidactGothic-Regular.woff2') format('woff2'),
-         url('../fonts/DidactGothic-Regular.ttf') format('truetype');
+    src: url('//assembl.science/fonts/DidactGothic-Regular.ttf');
+    src: url('//assembl.science/fonts/DidactGothic-Regular.woff2') format('woff2'),
+         url('//assembl.science/fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-weight: 400;
+    src: url('//assembl.science/fonts/Avenir-Regular.ttf');
+    src: url('//assembl.science/fonts/Avenir-Regular.woff2') format('woff2'),
+         url('//assembl.science/fonts/Avenir-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-weight: 700;
+    src: url('//assembl.science/fonts/Avenir-Bold.ttf');
+    src: url('//assembl.science/fonts/Avenir-Bold.woff2') format('woff2'),
+         url('//assembl.science/fonts/Avenir-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-style: italic;
+    src: url('//assembl.science/fonts/Avenir-Italic.ttf');
+    src: url('//assembl.science/fonts/Avenir-Italic.woff2') format('woff2'),
+         url('//assembl.science/fonts/Avenir-Italic.ttf') format('truetype');
 }
 
 html {
@@ -25,7 +49,8 @@ body {
     margin: 0px;
     padding: 0px;
     color: #EDF4F4;
-    font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.6px;
     font-size: 17px;
     caret-color: #EDF4F4;
     min-width: 750px;
@@ -59,7 +84,7 @@ input[type=text], input[type=email] {
     background: rgba(0,0,0,0.2);
     color: #1A1A1A;
     font-size: 15px;
-    font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
     font-weight: 400;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 2px;
@@ -75,7 +100,7 @@ select {
     background: rgba(0,0,0,0.2);
     color: #1A1A1A;
     font-size: 15px;
-    font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
     font-weight: 400;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 2px;
@@ -104,7 +129,7 @@ input[type=submit], input[type=button], button {
     padding: 4px 16px;
     border-radius: 3px;
     font-size: 17px;
-    font-family: 'Didact Gothic', Helvetica, Arial, sans-serif;
+    font-family: 'Didact Gothic', 'Avenir', Helvetica, Arial, sans-serif;
     font-weight: 400;
     box-shadow: 0px 0px 0px 0px rgba(5,5,5,0);
 }
@@ -293,7 +318,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
     padding: 12px 24px;
     box-shadow: 0px 0px 3px 0px rgba(5,5,5,0);
     transition: 0.25s;
-    font-family: 'Didact Gothic', 'Didact Gothic', Helvetica, Arial, sans-serif;
+    font-family: 'Didact Gothic', 'Avenir', Helvetica, Arial, sans-serif;
     margin: 4px;
     background: #224883;
     font-size: 21px;
@@ -480,7 +505,7 @@ h2 {
     line-height: 33px;
     font-weight: 700;
     letter-spacing: 0.1px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
 
 h2.extrapadding {
@@ -583,7 +608,7 @@ form table td.legalstuff {
     display: block;
     font-weight: 700;
     font-size: 23px;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
 
 .inner-card-title small {
