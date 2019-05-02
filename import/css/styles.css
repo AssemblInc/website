@@ -25,7 +25,7 @@ body {
     margin: 0px;
     padding: 0px;
     color: #EDF4F4;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
     font-size: 17px;
     caret-color: #EDF4F4;
     min-width: 750px;
@@ -36,7 +36,7 @@ body {
 }
 
 b, th {
-	font-weight: 500;
+	font-weight: 700;
 }
 
 a, a:visited {
@@ -59,8 +59,8 @@ input[type=text], input[type=email] {
     background: rgba(0,0,0,0.2);
     color: #1A1A1A;
     font-size: 15px;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 2px;
     cursor: text;
@@ -75,8 +75,8 @@ select {
     background: rgba(0,0,0,0.2);
     color: #1A1A1A;
     font-size: 15px;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 2px;
     cursor: pointer;
@@ -104,8 +104,8 @@ input[type=submit], input[type=button], button {
     padding: 4px 16px;
     border-radius: 3px;
     font-size: 17px;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     box-shadow: 0px 0px 0px 0px rgba(5,5,5,0);
 }
 
@@ -293,7 +293,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
     padding: 12px 24px;
     box-shadow: 0px 0px 3px 0px rgba(5,5,5,0);
     transition: 0.25s;
-    font-family: 'Didact Gothic', 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Didact Gothic', 'Muli', Helvetica, Arial, sans-serif;
     margin: 4px;
     background: #224883;
     font-size: 21px;
@@ -478,7 +478,7 @@ h2 {
     padding: 0px;
     font-size: 29px;
     line-height: 33px;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 0.1px;
 }
 
@@ -515,9 +515,8 @@ p {
 }
 
 form table th {
-    font-size: 17px;
+    font-size: 14px;
     text-align: left;
-    font-weight: 400;
 }
 
 form table td input {
@@ -581,13 +580,13 @@ form table td.legalstuff {
 
 .inner-card-title {
     display: block;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 23px;
 }
 
 .inner-card-title small {
     display: block;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     color: #7A7A7A;
 }
