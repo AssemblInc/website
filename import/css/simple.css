@@ -5,6 +5,8 @@
          url('../fonts/DidactGothic-Regular.ttf') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
+
 html {
     background-color: #193864;
     background: linear-gradient(-45deg, #19285C, #193864);
@@ -22,14 +24,15 @@ body {
     margin: 16px auto 128px auto;
     padding: 48px 32px;
     color: #1A1A1A;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-weight: 400;
     caret-color: #1A1A1A;
     max-width: 800px;
     background: rgba(255, 255, 255, 0.9);
 }
 
 b, th {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 a, a:visited {
