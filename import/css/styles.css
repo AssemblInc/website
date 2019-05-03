@@ -173,18 +173,6 @@ input[type=submit]:active, input[type=button]:active, button:active {
     z-index: 100;
 }
 
-#main-header:before, #main-footer:before {
-    will-change: top,left;
-    box-shadow: 0 0 4px rgba(0,0,0,.34), 0 4px 8px rgba(0,0,0,.68);
-    content: "";
-    height: 100%;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-    pointer-events: none;
-    z-index: +1;
-}
-
 #header-inner {
     display: block;
     text-align: right;
