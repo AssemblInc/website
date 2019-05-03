@@ -42,7 +42,7 @@ function onScrollEvent(noScrollCheck) {
     }
 }
 
-window.addEventListener("load", function() {
+window.addEventListener("DOMContentLoaded", function() {
     onScrollEvent(true);
 });
 
