@@ -42,6 +42,10 @@ function onScrollEvent(noScrollCheck) {
     }
 }
 
+window.addEventListener("load", function() {
+    onScrollEvent(true);
+});
+
 function initEffects() {
     document.onscroll = onScrollEvent;
     onScrollEvent(true);
@@ -49,7 +53,6 @@ function initEffects() {
         loadContent(window.location.hash.substring(3));
         window.addEventListener("load", function() {
             setTimeout(function() {
-                onScrollEvent(true);
                 if (document.getElementsByTagName("html")[0].scrollTop == 0 && document.getElementsByTagName("body")[0].scrollTop == 0) {
                     expandMoreContent(true);
                 }
@@ -62,7 +65,6 @@ function initEffects() {
         loadContent(getParameterByName("_escaped_fragment_"));
         window.addEventListener("load", function() {
             setTimeout(function() {
-                onScrollEvent(true);
                 if (document.getElementsByTagName("html")[0].scrollTop == 0 && document.getElementsByTagName("body")[0].scrollTop == 0) {
                     expandMoreContent(true);
                 }
