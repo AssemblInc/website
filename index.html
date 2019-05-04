@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<link rel="manifest" href="manifest.json" />
+		
+		<!-- GENERAL STUFF -->
+		<title>Assembl - Democratizing Science</title>
+		<meta http-equiv="content-type" content="text/html" />
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- OPENGRAPH METADATA -->
+		<meta property="og:title" content="Assembl - Democratizing Science" />
+		<meta property="og:description" content="Assembl is working to solve problems that inhibit the advancement of scientific research. Our current mission is to improve the quality and accessibility of scientific data by interconnecting disparate data sources and positively incentivizing data interchange." />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="images/icon.png" />
+		<meta property="og:url" content="https://assembl.science/" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="Assembl" />
+		
+		<!-- GOOGLE METADATA -->
+		<meta name="description" content="Assembl is working to solve problems that inhibit the advancement of scientific research. Our current mission is to improve the quality and accessibility of scientific data by interconnecting disparate data sources and positively incentivizing data interchange." />
+		<meta name="keywords" content="Assembl, science, research, data, sharing, interchange, blockchain, democratizing, open" />
+		
+		<!-- ICON METADATA -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" type="image/ico" href="favicon.ico" />
+        
+		<!-- STYLING -->
+		<meta name="theme-color" content="#193864" />
+		<link rel="stylesheet" href="import/css/styles.css" />
+		
+		<!-- SCRIPTS -->
+        <script src="import/js/jquery.js"></script>
+        <script src="import/js/useful.js"></script>
+        <script src="import/js/effects.js"></script>
+        <script src="import/js/downloader.js"></script>
+    </head>
+    <body>
+        <header id="main-header">
+            <div id="header-inner">
+                <div id="header-logo"><span id="header-logo-text" onclick="window.location.href = '#!/home';">Assembl</span><span id="header-logo-sub">democratizing science</span></div>
+                <nav id="header-nav">
+                    <a href="#!/download">download</a>
+                    <a href="blog/">blog</a>
+                    <a href="#!/contact">contact</a>
+                </nav>
+            </div>
+        </header>
+        <div id="main-content">
+            <div id="splash">
+                <div class="center-outer">
+                    <div class="center-inner" id="splash-inner">
+                        <img id="splash-logo-img" src="images/icon.png" /><br />
+                        <div id="download-container">
+                            <div id="download-text"><span id="app-name">Assembl Desktop</span><sup id="app-version"></sup></div>
+                            <button onclick="window.location.href='#!/download';">Available soon!</button>
+                            <!--
+                                <button id="download-btn" style="display: none;" onclick="window.location.href='#!/download';"></button>
+                                <button id="other-btn" onclick="window.location.href='#!/download';">Download</button>
+                            -->
+                        </div>
+
+                        <div id="social-networks">
+                            <a href="keybase/" target="_blank" title="Keybase"><img width="500" height="500" src="images/icons/keybase.svg" alt="Keybase" /></a>
+                            <a href="twitter/" target="_blank" title="Twitter"><img width="500" height="500" src="images/icons/twitter.svg" alt="Twitter" /></a>
+                            <a href="blog/" target="_blank" title="Blog"><img width="500" height="500" src="images/icons/blog.svg" alt="Blog" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="more-content">
+                <div id="expand-more-content" class="expand" onclick="expandMoreContent(this.className == 'expand');"></div>
+                <div class="" id="cards-left">
+                    <div class="card content-left cardgroup-home" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>About Assembl</h2>
+                                <p> Since our founding in March of 2018, we've been solving problems that inhibit the advancement of scientific research. Our mission is to improve the quality and accessibility of scientific data with simple to use tools. Our application simplifies the process of exchanging data and incentivizes data sharing with a unique licensing system.</p>
+                                <p>Assembl was founded by <a href="https://slm.space/" target="_blank">Sebastian Mellen</a> and <a href="https://freekb.es/" target="_blank">Freek Bes</a>. We've grown into a team of scientists, programmers, and researchers who envision a world of unbounded scientific exploration, free from corporate control and stagnating centralization. Through the development of simple tools, we can tackle complex problems and bring this vision to reality. If our vision inspires you as well, please spread the word. You can follow us on Twitter, Mastodon, and Minds, or read our blog at <a href="https://blog.assembl.science">blog.assembl.science</a>.</p>
+                                <p>If you're interested in joining our team, please do not hesitate to contact us at <a href="mailto:contact@assembl.science">contact@assembl.science</a>. Attach your CV and tell us what you can bring to the table. Before you do, take a look at our <a href="jobs/">job offers</a> to see if anything there suits you. If not, send us an email anyway - general applications are welcomed as well!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card content-left cardgroup-home" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>Interview WEF 2019</h2>
+                                <p>Watch an interview with Sebastian Mellen about Assembl at the WEF 2019 below:</p>
+                                <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/ZCHFFQQNezc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card content-left cardgroup-home" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>Interview on the Norupp Podcast</h2>
+                                <p>Listen to an <a href="https://www.norupp.com/podcast/democratizing-science-sebastian-mellen/" target="_blank">interview</a> by Jacob Pedersen with Sebastian Mellen on the Norupp Podcast. Some highlights include an explanation on why much of science today is broken and how to fix it, how blockchain can help with this, and the long-term vision of Assembl.</p>
+                                <iframe style="border: none" src="https://html5-player.libsyn.com/embed/episode/id/9114374/height/90/theme/standard/thumbnail/no/direction/backward/render-playlist/no/custom-color/004CFF/" height="45" width="100%" scrolling="no"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card content-left cardgroup-download" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>Download the Assembl Desktop application</h2>
+                                <p>The Assembl Desktop application provides an easy and secure way to transfer scientific data between two computers.</p>
+                                <p>The application is currently still in development and cannot be downloaded at this moment. It will be available soon for the following platforms:</p>
+                                <ul>
+                                    <li>Windows</li>
+                                    <li>Mac OS</li>
+                                    <li>Linux</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card content-left cardgroup-download" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>Demo video</h2>
+                                <p>Watch a demo video of the application below:</p>
+                                <iframe width="100%" height="300" src="https://www.youtube-nocookie.com/embed/HD310XaW6a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card content-left cardgroup-contact" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>Contact us</h2>
+                                <p>If you wish to contact us, feel free to send us an e-mail at <a href="mailto:contact@assembl.science">contact@assembl.science</a>! We will reply as soon as possible.<br /><br />You can also contact us on social media. Links to all our pages can be found in the footer below.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card content-left cardgroup-team" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>Meet the Assembl team</h2>
+                                <div class="inner-card">
+                                    <img src="images/team/sebastian-mellen.jpg" alt="Sebastian Lucas Mellen" class="inner-card-image round grayscale" />
+                                    <div class="inner-card-next-to-image">
+                                        <div class="inner-card-title">Sebastian Lucas Mellen<br/><small>Founder &amp; CEO</small></div>
+                                        <p>Sebastian is the founder of Assembl and oversees all of the company and its operations.</p>
+                                        <div class="inner-card-small-links"><a href="https://www.linkedin.com/in/sebmellen/" target="_blank">LinkedIn</a> | <a href="https://slm.space/" target="_blank">Website</a> | <a href="https://keybase.io/sebmellen" target="_blank">Keybase</a></div>
+                                    </div>
+                                </div>
+                                <div class="inner-card">
+                                    <img src="images/team/freek-bes.jpg" alt="Freek Bes" class="inner-card-image round grayscale" />
+                                    <div class="inner-card-next-to-image">
+                                        <div class="inner-card-title">Freek Bes<br/><small>Co-Founder &amp; CTO</small></div>
+                                        <p>Freek is the co-founder of Assembl and is in charge of all tech operations, as well as being the lead programmer.</p>
+                                        <div class="inner-card-small-links"><a href="https://www.linkedin.com/in/freek-bes/" target="_blank">LinkedIn</a> | <a href="https://freekb.es/" target="_blank">Website</a> | <a href="https://keybase.io/freekbes" target="_blank">Keybase</a></div>
+                                    </div>
+                                </div>
+                                <div class="inner-card">
+                                    <img src="images/team/henry-fudge.jpg" alt="Henry R. Fudge" class="inner-card-image round grayscale" />
+                                    <div class="inner-card-next-to-image">
+                                        <div class="inner-card-title">Henry R. Fudge<br/><small>Financial Director</small></div>
+                                        <p>Henry is in charge of managing Assembl’s financials and rousing the investor landscape. He is our investor conduit, as well as various governmental organizations and private tech funding organizations. He holds a Bachelor’s degree in Economics from the University of Bath.</p>
+                                        <div class="inner-card-small-links"><a href="https://www.linkedin.com/in/henryfudge/" target="_blank">LinkedIn</a></div>
+                                    </div>
+                                </div>
+                                <div class="inner-card">
+                                    <img src="images/team/jacob-pedersen.jpg" alt="Jacob Norup Pedersen" class="inner-card-image round grayscale" />
+                                    <div class="inner-card-next-to-image">
+                                        <div class="inner-card-title">Jacob Norup Pedersen<br/><small>User Acquisition Advisor</small></div>
+                                        <p>Jacob is in charge of managing publicity for Assembl, starting with <a target="_blank" href="https://www.norupp.com/podcast/democratizing-science-sebastian-mellen/">our episode on the Norupp podcast</a>. Jacob holds a Bachelor’s degree in Innovation and Entrepreneurship from Aarhaus University.</p>
+                                        <div class="inner-card-small-links"><a href="https://www.linkedin.com/in/jacob-norup-pedersen-167521170/" target="_blank">LinkedIn</a> | <a href="https://www.norupp.com/" target="_blank">Website</a></div>
+                                    </div>
+                                </div>
+                                <div class="inner-card">
+                                    <img src="images/team/signe-jensen.jpg" alt="Signe Stagstrup Jensen" class="inner-card-image round grayscale" />
+                                    <div class="inner-card-next-to-image">
+                                        <div class="inner-card-title">Signe Stagstrup Jensen<br/><small>Partnership Advisor</small></div>
+                                        <p>Signe is in charge of gathering partnerships for Assembl, and is responsible for the majority of our connections with potential partner organizations so far. She holds a Master’s degree in Business Psychology from Aarhus University.</p>
+                                        <div class="inner-card-small-links"><a href="https://www.linkedin.com/in/signe-stagstrup-jensen-257054a4/" target="_blank">LinkedIn</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div
+                ><div class="" id="cards-right">
+                    <div class="card content-right cardgroup-home cardgroup-download" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner">
+                                <h2>Sign up for updates</h2>
+                                <p>If you would like to follow our progress, please do sign up for our newsletter!</p>
+                                <!-- Begin Mailchimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form action="https://Assembl.us19.list-manage.com/subscribe/post?u=0c7d4fdb9b16faa0bf34cad2f&amp;id=338eda73e0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                                        <table style="width: 100%;">
+                                            <tr>
+                                                <th>Name:</th>
+                                                <td><input type="text" value="" name="NAME" class="required" required id="mce-NAME" autocomplete="off"></td>
+                                            </tr>
+                                            <tr>
+                                                <th style="width: 64px;">E-mail:</th>
+                                                <td><input type="email" value="" name="EMAIL" class="required email" required id="mce-EMAIL" autocomplete="off"></td>
+                                            </tr>
+                                            <tr style="display: none;">
+                                                <th>Are you a bot?</th>
+                                                <td><input type="text" name="b_0c7d4fdb9b16faa0bf34cad2f_338eda73e0" tabindex="-1" value=""></td>
+                                            </tr>
+                                            <tr>
+                                                <th></th>
+                                                <td class="legalstuff">We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.</a></td>
+                                            </tr>
+                                            <tr>
+                                                <th></th>
+                                                <td><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></td>
+                                            </tr>
+                                        </table>
+                                    </form>
+                                </div>
+                                <!--End mc_embed_signup-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card content-right cardgroup-home" style="display: none;">
+                        <div class="card-content-outer">
+                            <div class="card-content-inner nopadding">
+                                <h2 class="extrapadding">Tweets <a href="https://assembl.science/twitter" target="_blank">@assemblscience</a></h2>
+                                <a class="twitter-timeline" data-chrome="transparent nofooter noborders noheader noscrollbar" data-dnt="true" data-theme="light" data-link-color="#004CFF" data-tweet-limit="2" href="https://twitter.com/AssemblScience">Loading...</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer id="main-footer">
+                    <div id="footer-inner">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="text-align: left;">
+                                    <ul class="nobulletlist">
+                                        <li><b>SOCIAL</b></li>
+                                        <li><a href="blog/" target="_blank">Blog</a></li>
+                                        <li><a href="twitter/" target="_blank">Twitter</a></li>
+                                        <li><a href="linkedin/" target="_blank">LinkedIn</a></li>
+                                        <li><a href="youtube/" target="_blank">YouTube</a></li>
+                                        <li><a href="keybase/" target="_blank">Keybase</a></li>
+                                    </ul>
+                                </td>
+                                <td style="text-align: center;">
+                                    <ul class="nobulletlist">
+                                        <li><b>LEGAL</b></li>
+                                        <li><a href="imprint/" target="_blank">Imprint</a></li>
+                                        <li><a href="terms/" target="_blank">Terms &amp; conditions</a></li>
+                                    </ul>
+                                </td>
+                                <td style="text-align: right;">
+                                    <ul class="nobulletlist">
+                                        <li><b>MISCELLANEOUS</b></li>
+                                        <li><a href="#!/team">Meet the team</a></li>
+                                        <li><a href="jobs/">Job offers</a></li>
+                                        <li><a href="#!/contact">Contact us</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                        <div id="copyright">Copyright &copy; 2019 Assembl Inc. | All rights reserved</div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>

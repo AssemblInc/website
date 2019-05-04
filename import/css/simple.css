@@ -1,8 +1,33 @@
 @font-face {
     font-family: 'Didact Gothic';
-    src: url('../fonts/DidactGothic-Regular.ttf');
-    src: url('../fonts/DidactGothic-Regular.woff2') format('woff2'),
-         url('../fonts/DidactGothic-Regular.ttf') format('truetype');
+    font-weight: 400;
+    src: url('//assembl.science/import/fonts/DidactGothic-Regular.ttf');
+    src: url('//assembl.science/import/fonts/DidactGothic-Regular.woff2') format('woff2'),
+         url('//assembl.science/import/fonts/DidactGothic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-weight: 400;
+    src: url('//assembl.science/import/fonts/Avenir-Regular.ttf');
+    src: url('//assembl.science/import/fonts/Avenir-Regular.woff2') format('woff2'),
+         url('//assembl.science/import/fonts/Avenir-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-weight: 700;
+    src: url('//assembl.science/import/fonts/Avenir-Bold.ttf');
+    src: url('//assembl.science/import/fonts/Avenir-Bold.woff2') format('woff2'),
+         url('//assembl.science/import/fonts/Avenir-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    font-style: italic;
+    src: url('//assembl.science/import/fonts/Avenir-Italic.ttf');
+    src: url('//assembl.science/import/fonts/Avenir-Italic.woff2') format('woff2'),
+         url('//assembl.science/import/fonts/Avenir-Italic.ttf') format('truetype');
 }
 
 html {
@@ -22,14 +47,17 @@ body {
     margin: 16px auto 128px auto;
     padding: 48px 32px;
     color: #1A1A1A;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    letter-spacing: -0.6px;
+    font-weight: 400;
     caret-color: #1A1A1A;
     max-width: 800px;
     background: rgba(255, 255, 255, 0.9);
 }
 
 b, th {
-	font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 0px;
 }
 
 a, a:visited {
@@ -68,6 +96,7 @@ h1 a {
 h2, h3, h4, h5, h6 {
     font-family: 'Didact Gothic';
     font-weight: bold;
+    letter-spacing: normal;
     margin: 16px 0px 4px 0px;
 }
 

@@ -42,6 +42,10 @@ function onScrollEvent(noScrollCheck) {
     }
 }
 
+window.addEventListener("load", function() {
+    onScrollEvent(true);
+});
+
 function initEffects() {
     document.onscroll = onScrollEvent;
     onScrollEvent(true);
