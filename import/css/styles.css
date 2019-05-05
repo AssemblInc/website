@@ -353,7 +353,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
     display: inline-block;
     margin: 0px;
     cursor: pointer;
-    opacity: 0.85;
+    opacity: 1;
     transition: 0.25s;
     position: relative;
     padding: 8px;
