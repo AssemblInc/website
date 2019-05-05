@@ -250,6 +250,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
     bottom: 0px;
     height: 100%;
     width: 100%;
+    background-color: #ffffff;
     background-image: url(../../images/bg.jpg);
     background-position: bottom;
     background-size: cover;
