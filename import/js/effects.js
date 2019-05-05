@@ -54,7 +54,9 @@ function initEffects() {
         window.addEventListener("load", function() {
             setTimeout(function() {
                 if (document.getElementsByTagName("html")[0].scrollTop == 0 && document.getElementsByTagName("body")[0].scrollTop == 0) {
-                    expandMoreContent(true);
+                    if (window.location.hash.substring(3) != "home") {
+                        expandMoreContent(true);
+                    }
                 }
             }, 50);
         });
@@ -66,7 +68,9 @@ function initEffects() {
         window.addEventListener("load", function() {
             setTimeout(function() {
                 if (document.getElementsByTagName("html")[0].scrollTop == 0 && document.getElementsByTagName("body")[0].scrollTop == 0) {
-                    expandMoreContent(true);
+                    if (window.location.hash.substring(3) != "home") {
+                        expandMoreContent(true);
+                    }
                 }
             }, 50);
         });
