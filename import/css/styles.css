@@ -314,9 +314,9 @@ input[type=submit]:active, input[type=button]:active, button:active {
 }
 
 #download-text {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 32px;
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
     margin: 12px 4px;
     color: #364c6e;
 }
