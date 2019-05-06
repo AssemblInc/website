@@ -1,12 +1,4 @@
 @font-face {
-    font-family: 'Didact Gothic';
-    font-weight: 400;
-    src: url('//assembl.science/import/fonts/DidactGothic-Regular.ttf');
-    src: url('//assembl.science/import/fonts/DidactGothic-Regular.woff2') format('woff2'),
-         url('//assembl.science/import/fonts/DidactGothic-Regular.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'Avenir';
     font-weight: 400;
     src: url('//assembl.science/import/fonts/Avenir-Regular.ttf');
