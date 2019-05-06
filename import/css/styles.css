@@ -32,6 +32,14 @@
 
 @font-face {
     font-family: 'Renner';
+    font-weight: 500;
+    src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf');
+    src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.otf') format('opentype'),
+         url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Renner';
     font-weight: 400;
     src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.ttf');
     src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.otf') format('opentype'),
@@ -519,7 +527,7 @@ h2 {
     padding: 0px;
     font-size: 29px;
     line-height: 33px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Renner', Helvetica, Arial, sans-serif;
 }
 
@@ -621,14 +629,14 @@ form table td.legalstuff {
 
 .inner-card-title {
     display: block;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 23px;
     font-family: 'Renner', Helvetica, Arial, sans-serif;
 }
 
 .inner-card-title small {
     display: block;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     color: #7A7A7A;
 }
