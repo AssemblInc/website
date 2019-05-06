@@ -519,9 +519,8 @@ h2 {
     padding: 0px;
     font-size: 29px;
     line-height: 33px;
-    font-weight: 700;
-    letter-spacing: 0.1px;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-family: 'Renner', Helvetica, Arial, sans-serif;
 }
 
 h2.extrapadding {
@@ -622,14 +621,14 @@ form table td.legalstuff {
 
 .inner-card-title {
     display: block;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 23px;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Renner', Helvetica, Arial, sans-serif;
 }
 
 .inner-card-title small {
     display: block;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 15px;
     color: #7A7A7A;
 }
