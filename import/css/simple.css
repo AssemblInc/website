@@ -104,7 +104,7 @@ h1 {
     font-family: 'Renner';
     font-weight: 400;
     text-align: left;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.2px;
 
     background-color: #193864;
     background: linear-gradient(-45deg, #19285C, #193864);
