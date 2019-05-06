@@ -222,7 +222,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
 }
 
 #header-logo-text {
-    letter-spacing: 1.5px;
+    letter-spacing: 0.2px;
     cursor: pointer;
 }
 
@@ -241,6 +241,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
     text-align: right;
     font-family: 'Renner';
     text-transform: lowercase;
+    font-weight: 300;
 }
 
 #header-nav a {
@@ -318,10 +319,6 @@ input[type=submit]:active, input[type=button]:active, button:active {
     letter-spacing: 1px;
     margin: 12px 4px;
     color: #364c6e;
-}
-
-#app-name {
-    text-decoration: overline;
 }
 
 #download-text sup {
