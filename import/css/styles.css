@@ -32,27 +32,27 @@
 
 @font-face {
     font-family: 'Renner';
-    font-weight: 500;
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf');
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.otf') format('opentype'),
-         url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Renner';
     font-weight: 400;
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.otf');
+    src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.ttf');
     src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.otf') format('opentype'),
          url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Renner';
-    font-weight: 400;
+    font-weight: 300;
+    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.otf');
+    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.otf') format('opentype'),
+         url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Renner';
+    font-weight: 300;
     font-style: italic;
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book Italic.otf');
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book Italic.otf') format('opentype'),
-         url('//assembl.science/import/fonts/Renner/Renner_ 400 Book Italic.ttf') format('truetype');
+    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.otf');
+    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.otf') format('opentype'),
+         url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.ttf') format('truetype');
 }
 
 html {
@@ -156,7 +156,7 @@ input[type=submit], input[type=button], button {
     border-radius: 3px;
     font-size: 17px;
     font-family: 'Renner', 'Avenir', Helvetica, Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     box-shadow: 0px 0px 0px 0px rgba(5,5,5,0);
 }
 
@@ -210,7 +210,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
 #header-logo {
     display: block;
     font-family: 'Renner';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 42px;
     line-height: 44px;
     padding: 14px 24px;
@@ -227,7 +227,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
 }
 
 #header-logo-sub {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     margin-left: 18px;
     letter-spacing: 0px;
@@ -313,7 +313,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
 }
 
 #download-text {
-    font-weight: 600;
+    font-weight: 300;
     font-size: 32px;
     letter-spacing: 1px;
     margin: 12px 4px;
@@ -326,7 +326,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
 
 #download-text sup {
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 400;
     vertical-align: super;
 }
 
