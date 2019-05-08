@@ -1,0 +1,5 @@
+{
+    "message": "This is a test. <h1>This should not be a header.</h1><b>This should not be bold.</b><a href='http://www.example.com'>This should definitifely not be clickable.</a> The following URL should be parsed into a clickable link: https://assembl.science/#!/team.",
+    "timestamp": 1557332962334,
+    "type": "info"
+}
