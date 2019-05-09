@@ -653,13 +653,15 @@ form table td.legalstuff {
     }
 }
 
+@media screen and (max-width: 912px) {
+    #header-logo-sub {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 765px) {
     body {
         min-width: 520px;
-    }
-
-    #header-logo-sub {
-        display: none;
     }
 
     #cards-left, #cards-right {
