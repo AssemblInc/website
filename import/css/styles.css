@@ -187,6 +187,7 @@ input[type=submit]:active, input[type=button]:active, button:active {
     font-family: 'Renner';
     text-transform: lowercase;
     font-weight: 300;
+    margin-top: 2px;
 }
 
 #header-nav a {
