@@ -5,30 +5,27 @@ https://assembl-website.netlify.com/*  https://assembl.science/:splat  301!
 
 # Redirect domain aliases to primary domain
 
-https://www.assembl.science/*  https://assembl.science/:splat  301!
-
-https://assembl.ch/*  https://assembl.science/:splat  301!
-https://www.assembl.ch/*  https://assembl.science/:splat  301!
+https://assembl.science/*  https://assembl.ch/:splat  301!
+https://www.assembl.science/*  https://assembl.ch/:splat  301!
 
 https://assemblscience.com/*  https://assembl.science/:splat  301!
 https://www.assemblscience.com/*  https://assembl.science/:splat  301!
 
-http://assembl.cloud/*  https://assembl.science/:splat  301!
-http://www.assembl.cloud/*  https://assembl.science/:splat  301!
+http://assembl.cloud/*  https://assembl.ch/:splat  301!
+http://www.assembl.cloud/*  https://assembl.ch/:splat  301!
 
 /blog/*  https://assembl-blog.netlify.com/:splat  200
 
 
 # Redirect permalinks to subdomains
 
-https://assembl.science/blog/*  https://blog.assembl.science/:splat  301!
-https://assembl.science/docs/*  https://docs.assembl.science/:splat  301!
+https://assembl.ch/docs/*  https://docs.assembl.science/:splat  301!
 
 # Redirect social media links to social media accounts
 
-https://assembl.science/instagram  https://scholar.social/@assembl
-https://assembl.science/twitter  https://twitter.com/assemblscience
-https://assembl.science/minds  https://minds.com/assembl
-https://assembl.science/youtube  https://www.youtube.com/channel/UCFsoEZ0FlLgeei4dpGIhp0g
-https://assembl.science/linkedin  https://www.linkedin.com/company/assembl/
-https://assembl.science/keybase  https://www.keybase.io/assemblscience
+https://assembl.ch/instagram  https://scholar.social/@assembl
+https://assembl.ch/twitter  https://twitter.com/assemblscience
+https://assembl.ch/minds  https://minds.com/assembl
+https://assembl.ch/youtube  https://www.youtube.com/channel/UCFsoEZ0FlLgeei4dpGIhp0g
+https://assembl.ch/linkedin  https://www.linkedin.com/company/assembl/
+https://assembl.ch/keybase  https://www.keybase.io/assembl
