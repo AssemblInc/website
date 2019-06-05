@@ -20,8 +20,7 @@ body {
     padding: 0px;
     color: #EDF4F4;
     font-family: Helvetica, Arial, sans-serif;
-    letter-spacing: -0.6px;
-    font-size: 17px;
+    font-size: 16px;
     caret-color: #EDF4F4;
     min-width: 750px;
 }
@@ -482,7 +481,7 @@ h2.extrapadding {
 p {
     margin: 6px 0px 6px 0px;
     padding: 0px;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 21px;
     font-weight: 400;
 }
@@ -756,7 +755,7 @@ form table td.legalstuff {
     }
 
     p {
-        font-size: 17px !important;
+        font-size: 16px !important;
     }
 
     #main-footer {
