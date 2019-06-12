@@ -20,7 +20,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     caret-color: #1A1A1A;
     max-width: 800px;
-    background: rgba(255, 255, 255);
+    background: #FAFAFA;
 }
 
 b, th {
@@ -45,14 +45,14 @@ h1 {
 
     display: block;
     font-family: 'Renner', Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
     letter-spacing: 0.2px;
 
     background-color: #193864;
     background: linear-gradient(45deg, #19285C, #0036B7);
     background-attachment: fixed;
-    color: #EDF4F4;
+    color: #FFFFFF;
 }
 
 h1 a {
