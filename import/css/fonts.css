@@ -1,30 +1,7 @@
 @font-face {
-    font-family: 'Avenir';
-    font-weight: 400;
-    src: url('//assembl.science/import/fonts/Avenir-Regular.ttf');
-    src: url('//assembl.science/import/fonts/Avenir-Regular.woff2') format('woff2'),
-         url('//assembl.science/import/fonts/Avenir-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Avenir';
-    font-weight: 700;
-    src: url('//assembl.science/import/fonts/Avenir-Bold.ttf');
-    src: url('//assembl.science/import/fonts/Avenir-Bold.woff2') format('woff2'),
-         url('//assembl.science/import/fonts/Avenir-Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Avenir';
-    font-style: italic;
-    src: url('//assembl.science/import/fonts/Avenir-Italic.ttf');
-    src: url('//assembl.science/import/fonts/Avenir-Italic.woff2') format('woff2'),
-         url('//assembl.science/import/fonts/Avenir-Italic.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'Renner';
     font-weight: 500;
+    font-display: fallback;
     src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf');
     src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.otf') format('opentype'),
          url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf') format('truetype');
@@ -33,6 +10,7 @@
 @font-face {
     font-family: 'Renner';
     font-weight: 400;
+    font-display: fallback;
     src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.ttf');
     src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.otf') format('opentype'),
          url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.ttf') format('truetype');
@@ -41,6 +19,7 @@
 @font-face {
     font-family: 'Renner';
     font-weight: 300;
+    font-display: fallback;
     src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.otf');
     src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.otf') format('opentype'),
          url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.ttf') format('truetype');
@@ -49,6 +28,7 @@
 @font-face {
     font-family: 'Renner';
     font-weight: 300;
+    font-display: fallback;
     font-style: italic;
     src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.otf');
     src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.otf') format('opentype'),
