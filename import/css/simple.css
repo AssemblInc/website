@@ -22,7 +22,7 @@ body {
     font-weight: 400;
     caret-color: #1A1A1A;
     max-width: 800px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255);
 }
 
 b, th {
