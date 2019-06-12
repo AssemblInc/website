@@ -2,27 +2,27 @@
     font-family: 'Renner';
     font-weight: 500;
     font-display: fallback;
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf');
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.otf') format('opentype'),
-         url('//assembl.science/import/fonts/Renner/Renner_ 500 Medium.ttf') format('truetype');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 500 Medium.ttf');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 500 Medium.otf') format('opentype'),
+         url('//assembl.ch/import/fonts/Renner/Renner_ 500 Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Renner';
     font-weight: 400;
     font-display: fallback;
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.ttf');
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.otf') format('opentype'),
-         url('//assembl.science/import/fonts/Renner/Renner_ 400 Book.ttf') format('truetype');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 400 Book.ttf');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 400 Book.otf') format('opentype'),
+         url('//assembl.ch/import/fonts/Renner/Renner_ 400 Book.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Renner';
     font-weight: 300;
     font-display: fallback;
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.otf');
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.otf') format('opentype'),
-         url('//assembl.science/import/fonts/Renner/Renner_ 300 Light.ttf') format('truetype');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 300 Light.otf');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 300 Light.otf') format('opentype'),
+         url('//assembl.ch/import/fonts/Renner/Renner_ 300 Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -30,7 +30,7 @@
     font-weight: 300;
     font-display: fallback;
     font-style: italic;
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.otf');
-    src: url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.otf') format('opentype'),
-         url('//assembl.science/import/fonts/Renner/Renner_ 300 Light Italic.ttf') format('truetype');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 300 Light Italic.otf');
+    src: url('//assembl.ch/import/fonts/Renner/Renner_ 300 Light Italic.otf') format('opentype'),
+         url('//assembl.ch/import/fonts/Renner/Renner_ 300 Light Italic.ttf') format('truetype');
 }
