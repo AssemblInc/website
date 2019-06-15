@@ -17,7 +17,7 @@ body {
     margin: 16px auto 128px auto;
     padding: 48px 32px;
     color: #1A1A1A;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
     caret-color: #1A1A1A;
     max-width: 800px;
     background: #FAFAFA;
@@ -44,7 +44,7 @@ h1 {
     padding: 14px 32px;
 
     display: block;
-    font-family: Source Sans Pro, 'Renner', Helvetica, Arial, sans-serif;
+    font-family: 'Renner', Helvetica, Arial, sans-serif;
     font-weight: 500;
     text-align: left;
     letter-spacing: 0.2px;
