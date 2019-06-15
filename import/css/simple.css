@@ -44,7 +44,7 @@ h1 {
     padding: 14px 32px;
 
     display: block;
-    font-family: 'Renner', Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro, 'Renner', Helvetica, Arial, sans-serif;
     font-weight: 500;
     text-align: left;
     letter-spacing: 0.2px;
@@ -66,7 +66,7 @@ h1 .sub {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Renner', Helvetica, Arial, sans-serif;
+    font-family: Source Sans Pro, 'Renner', Helvetica, Arial, sans-serif;
     font-weight: 500;
     letter-spacing: normal;
     margin: 16px 0px 4px 0px;
