@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-    margin: 16px auto 128px auto;
+    margin: 0px auto 128px auto;
     padding: 48px 32px;
     color: #1A1A1A;
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
@@ -41,7 +41,7 @@ a:hover, a:focus, a:active {
 
 h1 {
     margin: -48px -32px 32px -32px;
-    padding: 14px 32px;
+    padding: 30px 32px 14px 32px;
 
     display: block;
     font-family: 'Renner', Helvetica, Arial, sans-serif;
