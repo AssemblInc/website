@@ -4,7 +4,7 @@
     font-family: 'Renner';
     font-weight: 300;
     font-display: fallback;
-    src: url('../fonts/renner/renner_300') format('woff');
+    src: url('../fonts/renner/renner_300.woff') format('woff');
 }
 
 @font-face {
@@ -12,14 +12,14 @@
     font-weight: 300;
     font-display: fallback;
     font-style: italic;
-    src: url('../fonts/renner/renner_300_italic') format ('woff');
+    src: url('../fonts/renner/renner_300_italic.woff') format ('woff');
 }
 
 @font-face {
     font-family: 'Renner';
     font-weight: 500;
     font-display: fallback;
-    src: url('../fonts/renner/renner_500') format('woff');
+    src: url('../fonts/renner/renner_500.woff') format('woff');
 }
 
 @font-face {
@@ -27,21 +27,21 @@
     font-weight: 500;
     font-display: fallback;
     font-style: italic;
-    src: url('../fonts/renner/renner_500_italic') format('woff');
+    src: url('../fonts/renner/renner_500_italic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Renner';
     font-weight: 700;
     font-display: fallback;
-    src: url('../fonts/renner/renner_700') format('woff');
+    src: url('../fonts/renner/renner_700.woff') format('woff');
 
 @font-face {
     font-family: 'Renner';
     font-weight: 700;
     font-display: fallback;
     font-style: italic;
-    src: url('../fonts/renner/renner_700_italic') format('woff');    
+    src: url('../fonts/renner/renner_700_italic.woff') format('woff');    
 }
 
 /* SOURCE SANS PRO */
@@ -50,7 +50,7 @@
     font-family: 'Source Sans Pro';
     font-weight: 300;
     font-display: fallback;
-    src: url('../fonts/source_sans_pro/source_sans_pro_300') format('woff');    
+    src: url('../fonts/source_sans_pro/source_sans_pro_300.woff') format('woff');    
 }
 
 @font-face {
@@ -58,14 +58,14 @@
     font-weight: 300;
     font-display: fallback;
     font-style: italic;
-    src: url('../fonts/source_sans_pro/source_sans_pro_300_italic') format('woff');    
+    src: url('../fonts/source_sans_pro/source_sans_pro_300_italic.woff') format('woff');    
 }
 
 @font-face {
     font-family: 'Source Sans Pro';
     font-weight: 500;
     font-display: fallback;
-    src: url('../fonts/source_sans_pro/source_sans_pro_500') format('woff');    
+    src: url('../fonts/source_sans_pro/source_sans_pro_500.woff') format('woff');    
 }
 
 @font-face {
@@ -73,14 +73,14 @@
     font-weight: 500;
     font-display: fallback;
     font-style: italic;
-    src: url('../fonts/source_sans_pro/source_sans_pro_500_italic') format('woff');    
+    src: url('../fonts/source_sans_pro/source_sans_pro_500_italic.woff') format('woff');    
 }
 
 @font-face {
     font-family: 'Source Sans Pro';
     font-weight: 700;
     font-display: fallback;
-    src: url('../fonts/source_sans_pro/source_sans_pro_700') format('woff');    
+    src: url('../fonts/source_sans_pro/source_sans_pro_700.woff') format('woff');    
 }
 
 @font-face {
@@ -88,5 +88,5 @@
     font-weight: 700;
     font-display: fallback;
     font-style: italic;
-    src: url('../fonts/source_sans_pro/source_sans_pro_700_italic') format('woff');    
+    src: url('../fonts/source_sans_pro/source_sans_pro_700_italic.woff') format('woff');    
 }
