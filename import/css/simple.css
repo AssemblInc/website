@@ -50,7 +50,7 @@ h1 {
     letter-spacing: 0.2px;
 
     background-color: #19285c;
-    background: linear-gradient( #0036b7, #19285c);
+    background: linear-gradient(45deg, #0036b7, #19285c);
     background-attachment: fixed;
     color: #FFFFFF;
 }
