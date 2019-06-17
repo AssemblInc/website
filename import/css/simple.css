@@ -21,6 +21,7 @@ body {
     caret-color: #1A1A1A;
     max-width: 800px;
     background: #FAFAFA;
+    border-radius: 3px;
 }
 
 b, th {
